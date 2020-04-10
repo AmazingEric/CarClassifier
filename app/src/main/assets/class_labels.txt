@@ -1,0 +1,196 @@
+AM General 悍马 SUV 2000
+讴歌 RL Sedan 2012
+讴歌 TL Sedan 2012
+讴歌 TL Type-S 2008
+讴歌 TSX Sedan 2012
+讴歌 Integra Type R 2001
+讴歌 ZDX Hatchback 2012
+阿斯顿马丁 V8 Vantage Convertible 2012
+阿斯顿马丁 V8 Vantage Coupe 2012
+阿斯顿马丁 Virage Convertible 2012
+阿斯顿马丁 Virage Coupe 2012
+奥迪 RS 4 Convertible 2008
+奥迪 A5 Coupe 2012
+奥迪 TTS Coupe 2012
+奥迪 R8 Coupe 2012
+奥迪 V8 Sedan 1994
+奥迪 100 Sedan 1994
+奥迪 100 Wagon 1994
+奥迪 TT Hatchback 2011
+奥迪 S6 Sedan 2011
+奥迪 S5 Convertible 2012
+奥迪 S5 Coupe 2012
+奥迪 S4 Sedan 2012
+奥迪 S4 Sedan 2007
+奥迪 TT RS Coupe 2012
+宝马 ActiveHybrid 5 Sedan 2012
+宝马 1 Series Convertible 2012
+宝马 1 Series Coupe 2012
+宝马 3 Series Sedan 2012
+宝马 3 Series Wagon 2012
+宝马 6 Series Convertible 2007
+宝马 X5 SUV 2007
+宝马 X6 SUV 2012
+宝马 M3 Coupe 2012
+宝马 M5 Sedan 2010
+宝马 M6 Convertible 2010
+宝马 X3 SUV 2012
+宝马 Z4 Convertible 2012
+宾利 Continental Supersports Conv. Convertible 2012
+宾利 Arnage Sedan 2009
+宾利 Mulsanne Sedan 2011
+宾利 Continental GT Coupe 2012
+宾利 Continental GT Coupe 2007
+宾利 Continental Flying Spur Sedan 2007
+布加迪威龙 16.4 Convertible 2009
+布加迪威龙 16.4 Coupe 2009
+别克 Regal GS 2012
+别克 Rainier SUV 2007
+别克 Verano Sedan 2012
+别克 Enclave SUV 2012
+凯迪拉克 CTS-V Sedan 2012
+凯迪拉克 SRX SUV 2012
+凯迪拉克 Escalade EXT Crew Cab 2007
+雪佛兰 Silverado 1500 Hybrid Crew Cab 2012
+雪佛兰 Corvette Convertible 2012
+雪佛兰 Corvette ZR1 2012
+雪佛兰 Corvette Ron Fellows Edition Z06 2007
+雪佛兰 Traverse SUV 2012
+雪佛兰 Camaro Convertible 2012
+雪佛兰 HHR SS 2010
+雪佛兰 Impala Sedan 2007
+雪佛兰 Tahoe Hybrid SUV 2012
+雪佛兰 Sonic Sedan 2012
+雪佛兰 Express Cargo Van 2007
+雪佛兰 Avalanche Crew Cab 2012
+雪佛兰 Cobalt SS 2010
+雪佛兰 Malibu Hybrid Sedan 2010
+雪佛兰 TrailBlazer SS 2009
+雪佛兰 Silverado 2500HD Regular Cab 2012
+雪佛兰 Silverado 1500 Classic Extended Cab 2007
+雪佛兰 Express Van 2007
+雪佛兰 Monte Carlo Coupe 2007
+雪佛兰 Malibu Sedan 2007
+雪佛兰 Silverado 1500 Extended Cab 2012
+雪佛兰 Silverado 1500 Regular Cab 2012
+克莱斯勒 Aspen SUV 2009
+克莱斯勒 Sebring Convertible 2010
+克莱斯勒 Town and Country Minivan 2012
+克莱斯勒 300 SRT-8 2010
+克莱斯勒 Crossfire Convertible 2008
+克莱斯勒 PT Cruiser Convertible 2008
+大宇 Nubira Wagon 2002
+道奇 Caliber Wagon 2012
+道奇 Caliber Wagon 2007
+道奇 Caravan Minivan 1997
+道奇 Ram Pickup 3500 Crew Cab 2010
+道奇 Ram Pickup 3500 Quad Cab 2009
+道奇 Sprinter Cargo Van 2009
+道奇 Journey SUV 2012
+道奇 Dakota Crew Cab 2010
+道奇 Dakota Club Cab 2007
+道奇 Magnum Wagon 2008
+道奇 Challenger SRT8 2011
+道奇 Durango SUV 2012
+道奇 Durango SUV 2007
+道奇 Charger Sedan 2012
+道奇 Charger SRT-8 2009
+Eagle Talon Hatchback 1998
+菲亚特 500 Abarth 2012
+菲亚特 500 Convertible 2012
+法拉利 FF Coupe 2012
+法拉利 California Convertible 2012
+法拉利 458 Italia Convertible 2012
+法拉利 458 Italia Coupe 2012
+Fisker Karma Sedan 2012
+福特 F-450 Super Duty Crew Cab 2012
+福特 Mustang Convertible 2007
+福特 Freestar Minivan 2007
+福特 Expedition EL SUV 2009
+福特 Edge SUV 2012
+福特 Ranger SuperCab 2011
+福特 GT Coupe 2006
+福特 F-150 Regular Cab 2012
+福特 F-150 Regular Cab 2007
+福特 Focus Sedan 2007
+福特 E-Series Wagon Van 2012
+福特 Fiesta Sedan 2012
+商务之星 Terrain SUV 2012
+商务之星 Savana Van 2012
+商务之星 Yukon Hybrid SUV 2012
+商务之星 Acadia SUV 2012
+商务之星 Canyon Extended Cab 2012
+Geo Metro Convertible 1993
+悍马 H3T Crew Cab 2010
+悍马 H2 SUT Crew Cab 2009
+本田 Odyssey Minivan 2012
+本田 Odyssey Minivan 2007
+本田 Accord Coupe 2012
+本田 Accord Sedan 2012
+现代 Veloster Hatchback 2012
+现代 Santa Fe SUV 2012
+现代 Tucson SUV 2012
+现代 Veracruz SUV 2012
+现代 Sonata Hybrid Sedan 2012
+现代 Elantra Sedan 2007
+现代 Accent Sedan 2012
+现代 Genesis Sedan 2012
+现代 Sonata Sedan 2012
+现代 Elantra Touring Hatchback 2012
+现代 Azera Sedan 2012
+英菲尼迪 G Coupe IPL 2012
+英菲尼迪 QX56 SUV 2011
+五十铃 Ascender SUV 2008
+捷豹 XK XKR 2012
+吉普 Patriot SUV 2012
+吉普 Wrangler SUV 2012
+吉普 Liberty SUV 2012
+吉普 Grand Cherokee SUV 2012
+吉普 Compass SUV 2012
+兰博基尼 Reventon Coupe 2008
+兰博基尼 Aventador Coupe 2012
+兰博基尼 Gallardo LP 570-4 Superleggera 2012
+兰博基尼 Diablo Coupe 2001
+路虎 Range Rover SUV 2012
+路虎 LR2 SUV 2012
+林肯 Town Car Sedan 2011
+宝马MINI Cooper Roadster Convertible 2012
+Maybach Landaulet Convertible 2012
+马自达 Tribute SUV 2011
+迈凯伦 MP4-12C Coupe 2012
+梅赛德斯奔驰 300-Class Convertible 1993
+梅赛德斯奔驰 C-Class Sedan 2012
+梅赛德斯奔驰 SL-Class Coupe 2009
+梅赛德斯奔驰 E-Class Sedan 2012
+梅赛德斯奔驰 S-Class Sedan 2012
+梅赛德斯奔驰 Sprinter Van 2012
+三菱 Lancer Sedan 2012
+日产 Leaf Hatchback 2012
+日产 NV Passenger Van 2012
+日产 Juke Hatchback 2012
+日产 240SX Coupe 1998
+普利茅斯 Neon Coupe 1999
+保时捷 Panamera Sedan 2012
+道奇 Ram C/V Cargo Van Minivan 2012
+劳斯莱斯 Phantom Drophead Coupe Convertible 2012
+劳斯莱斯 Ghost Sedan 2012
+劳斯莱斯 Phantom Sedan 2012
+赛恩 xD Hatchback 2012
+世爵 C8 Convertible 2009
+世爵 C8 Coupe 2009
+铃木 Aerio Sedan 2007
+铃木 Kizashi Sedan 2012
+铃木 SX4 Hatchback 2012
+铃木 SX4 Sedan 2012
+特斯拉 Model S Sedan 2012
+丰田 Sequoia SUV 2012
+丰田 Camry Sedan 2012
+丰田 Corolla Sedan 2012
+丰田 4Runner SUV 2012
+大众 Golf Hatchback 2012
+大众 Golf Hatchback 1991
+大众 Beetle Hatchback 2012
+沃尔沃 C30 Hatchback 2012
+沃尔沃 240 Sedan 1993
+沃尔沃 XC90 SUV 2007
+奔驰smart fortwo Convertible 2012
