@@ -30,7 +30,7 @@ public class Classifier {
     private static final String MODEL_PATH = "newModel.tflite";
     private static final String LABEL_PATH = "class_labels.txt";
 
-    private static final int RESULTS_TO_SHOW = 3;
+    private static final int RESULTS_TO_SHOW = 1;
     private static final int DIM_BATCH_SIZE = 1;
     private static final int DIM_PIXEL_SIZE = 3;
 
@@ -47,6 +47,7 @@ public class Classifier {
     private ByteBuffer imgData = null;
     private float[][] labelProbArray = null;
     private String textToShow;
+    public Integer classNumber;
 
     private PriorityQueue<Map.Entry<String, Float>> sortedLabels =
             new PriorityQueue<>(
@@ -74,13 +75,9 @@ public class Classifier {
         }
         bitmap = Bitmap.createScaledBitmap(bitmap, DIM_IMG_SIZE_X, DIM_IMG_SIZE_Y, false);
         convertBitmapToByteBuffer(bitmap);
-        long startTime = SystemClock.uptimeMillis();
         tflite.run(imgData, labelProbArray);
-        long endTime = SystemClock.uptimeMillis();
-        textToShow = textToShow + '\n' + printTopKLabels();
-        textToShow = Long.toString(endTime - startTime) + "ms" + textToShow;
+        textToShow = printTopKLabels();
         return textToShow;
-
     }
 
     public void close() {
@@ -145,6 +142,14 @@ public class Classifier {
         for (int i = 0; i < size; ++i) {
             Map.Entry<String, Float> label = sortedLabels.poll();
             textToShow = "\n" + label.getKey() + ":" + Float.toString(label.getValue()) + textToShow;
+            if (i == size-1) {
+                for (int j = 0; j < labelList.size(); ++j) {
+                    if (label.getKey() == labelList.get(j)) {
+                        classNumber = j + 1;
+                        break;
+                    }
+                }
+            }
         }
         return textToShow;
     }
