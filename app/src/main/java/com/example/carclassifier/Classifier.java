@@ -3,8 +3,6 @@ package com.example.carclassifier;
 import android.app.Activity;
 import android.content.res.AssetFileDescriptor;
 import android.graphics.Bitmap;
-import android.os.SystemClock;
-import android.widget.Toast;
 
 import org.tensorflow.lite.Interpreter;
 
@@ -27,15 +25,15 @@ public class Classifier {
 
     private static final String TAG = "TfLiteCameraDemo";
 
-    private static final String MODEL_PATH = "newModel.tflite";
     private static final String LABEL_PATH = "class_labels.txt";
+    private static final String MODEL_PATH = "Cars_Classification.tflite";
 
     private static final int RESULTS_TO_SHOW = 1;
     private static final int DIM_BATCH_SIZE = 1;
     private static final int DIM_PIXEL_SIZE = 3;
 
-    static final int DIM_IMG_SIZE_X = 224;
-    static final int DIM_IMG_SIZE_Y = 224;
+    static final int DIM_IMG_SIZE_X = 299;
+    static final int DIM_IMG_SIZE_Y = 299;
 
     private static final float IMAGE_MEAN = 127.5f;
     private static final float IMAGE_STD = 127.5f;
@@ -141,7 +139,10 @@ public class Classifier {
         final int size = sortedLabels.size();
         for (int i = 0; i < size; ++i) {
             Map.Entry<String, Float> label = sortedLabels.poll();
-            textToShow = "\n" + label.getKey() + ":" + Float.toString(label.getValue()) + textToShow;
+            //textToShow = label.getKey() + ":" + Float.toString(label.getValue()) + textToShow;
+            textToShow ="识别结果:" + "\n" +
+                    "汽车型号:" + label.getKey() + "\n" +
+                    "概率为:" + Float.toString(label.getValue());
             if (i == size-1) {
                 for (int j = 0; j < labelList.size(); ++j) {
                     if (label.getKey() == labelList.get(j)) {

@@ -4,54 +4,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/main_interface"
     tools:context=".Result">
 
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="208dp"
+        android:background="@drawable/button_style"
+        android:gravity="center"
         android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.033"
-        android:gravity="center"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_home"
-        android:layout_width="412dp"
-        android:layout_height="74dp"
-        android:layout_marginBottom="15dp"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_style"
         android:text="继续识别"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_recommend"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="321dp"
-        app:layout_constraintBottom_toTopOf="@+id/button_home"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="60dp"
+        android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        android:adjustViewBounds="true"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="0dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <Button
         android:id="@+id/button_recommend"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="点击查看相同款式的汽车"
-        app:layout_constraintBottom_toTopOf="@+id/button_home"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="19dp"
+        android:background="@drawable/button_style"
+        android:text="点击查看相似的车型"
+        app:layout_constraintBottom_toBottomOf="@+id/button_home"
+        app:layout_constraintEnd_toStartOf="@+id/button_home"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="@+id/button_home" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

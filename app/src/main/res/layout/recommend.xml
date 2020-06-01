@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Recommend">
+    tools:context=".Recommend"
+    android:background="@drawable/main_interface">
 
 
     <ImageView
@@ -47,6 +48,7 @@
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:text="TextView"
+        android:background="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,6 +60,7 @@
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:text="TextView"
+        android:background="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,9 +72,26 @@
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:text="TextView"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_style"
+        android:text="返回车型识别结果"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.058" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

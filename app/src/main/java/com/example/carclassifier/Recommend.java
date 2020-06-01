@@ -10,6 +10,7 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 
 import android.database.sqlite.SQLiteDatabase;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -46,7 +47,7 @@ public class Recommend extends AppCompatActivity {
     private ImageView imageView1;
     private ImageView imageView2;
     private ImageView imageView3;
-    private Button button_return;
+    private Button button_back;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,6 +59,7 @@ public class Recommend extends AppCompatActivity {
         imageView1 = (ImageView) findViewById(R.id.imageView1);
         imageView2 = (ImageView) findViewById(R.id.imageView2);
         imageView3 = (ImageView) findViewById(R.id.imageView3);
+        button_back = (Button) findViewById(R.id.button_back);
 
         Intent intent = getIntent();
         class_number = intent.getIntExtra("Class_Number", 0);
@@ -97,7 +99,16 @@ public class Recommend extends AppCompatActivity {
             e.printStackTrace();
         }
 
+        button_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
     }
+
+
 
 
     private List<String> loadLabelList(Activity activity) throws IOException {

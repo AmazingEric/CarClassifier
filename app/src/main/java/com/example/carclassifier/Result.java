@@ -21,7 +21,7 @@ public class Result extends AppCompatActivity {
     private static final String LABEL_PATH = "class_labels.txt";
     private static final String IMG_PATH = "imgs/";
 
-    private static final int INPUT_SIZE = 224;
+    private static final int INPUT_SIZE = 299;
 
     private Integer classNumber;
 

@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final int TAKE_PHOTO = 1;
     private static final int CHOOSE_PHOTO = 2;
-    private static final int INPUT_SIZE = 224;
+    private static final int INPUT_SIZE = 299;
 
     private Uri imageUri;
     private Button button_album;
